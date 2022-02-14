@@ -1,0 +1,17 @@
+{
+	"name": "richtabor/post-reading-time-block",
+	"description": "A block to render the estimated reading time of a post.",
+	"version": "1.0.0",
+	"type": "wordpress-plugin",
+	"homepage": "https://richtabor.com",
+	"license": "GPLv2 or later",
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^2.2",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0"
+	},
+	"scripts": {
+		"lint": "./vendor/bin/phpcs",
+		"lint-fix": "./vendor/bin/phpcbf --extensions=php ."
+	},
+	"minimum-stability": "dev"
+}

@@ -1,0 +1,13 @@
+{
+        "extends": [
+                "plugin:@wordpress/eslint-plugin/recommended"
+        ],
+        "globals": {
+                "mapkit": "writable",
+                "CustomEvent": "readonly",
+                "Event": "readonly"
+        },
+        "ignorePatterns": [
+                "**/vendor/**"
+        ]
+}

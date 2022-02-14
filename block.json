@@ -1,0 +1,34 @@
+{
+	"apiVersion": 2,
+	"name": "tabor/post-reading-time",
+	"title": "Reading Time",
+	"category": "theme",
+	"description": "Display the estimated reading time for this post.",
+        "keywords": [ "tabor", "minutes", "date"],
+	"textdomain": "post-reading-time-block",
+	"attributes": {
+		"textAlign": {
+			"type": "string"
+		}
+	},
+	"usesContext": [ "postId" ],
+        "supports": {
+		"html": false,
+		"color": {
+			"background": false
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalTextTransform": true,
+			"__experimentalLetterSpacing": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true
+			}
+		}
+	},
+	"editorScript": "file:./build/index.js"
+}
